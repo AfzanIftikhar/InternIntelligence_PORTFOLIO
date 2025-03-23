@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'HelveticaNeueW01-55Roma, HelveticaNeueW';
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dadada;
+}
+.Name{
+    width: 30%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.Links{
+    display: flex;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.Links i{
+    font-size: 1.2rem;
+    display: none;
+}
+.Links ul{
+    gap: 5vw;
+    display: flex;
+
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+ul a:hover{
+    border-bottom: 1px solid black;
+    /* height: 20px; */
+    transition: all  ease-in;
+}
+
+.Hero{
+    background-image:  linear-gradient(to bottom right, rgb(0,0,0), rgb(0,0,0,0.5) ), url('BG.JPG');
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sometext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    flex-direction: column;
+}
+.sometext h1{
+    font-size: 6rem;
+    color: #ffff;
+    font-weight: 50;
+    font-family: 'HelveticaNeueW01-55Roma, Helvetica';
+    letter-spacing: 0.2em;
+}
+.sometext h3{
+    font-size: 3rem;
+    color: #ffff;
+    font-weight: 50;
+    font-family: 'HelveticaNeueW01-55Roma, Helvetica';
+    letter-spacing: 0.2em;
+}
+.About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    flex-direction: column;
+    background-color: #dadada;
+}
+.Line{
+    width: 1px;
+    margin: 50px;
+    height: 30%;
+    background-color: #797878;
+}
+.AboutMe{
+    height: 60%;
+    box-shadow: 10px  10px 10px 10px #a8a7a7;
+    
+    width: 40%;
+    padding-top: 5vh;
+   
+    margin: 4vw;
+    
+}
+.Abou , .PF{
+    color: #666464;
+   display: flex;
+   font-size: 2.8rem;
+   font-style: italic;
+   font-weight: 50;
+   justify-content: center;
+}
+.AboutMe p{
+    display: flex;
+    padding: 20px 30px;
+    color: #666464;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.Portfolio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #dadada , white);
+}
+.Projects{
+    
+    width: 100%;
+   height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+    /* flex-wrap: wrap; */
+    padding-top: 5vh;
+   
+    margin: 4vw;
+    
+}
+.first{
+    background-image: url(box1.png);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;     
+
+    
+}
+.link1{
+    display: none;
+    text-decoration: none;
+    color: rgb(255, 234, 234);
+    width: 100%;
+    height: auto;
+    font-style: italic;
+    display: flex;
+    padding: 4vw 5vw;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+.first:hover{
+    transform: scale(1.1);
+    background-image:  linear-gradient(to bottom right, rgb(0,0,0), rgba(0, 0, 0, 0.8) ), url('box1.png');
+    
+    
+}
+
+.second{
+    background-image: url(ID.jpg);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;     
+
+
+}
+.any{
+    display: none;
+    text-decoration: none;
+    color: rgb(255, 234, 234);
+    width: 100%;
+    height: auto;
+    font-style: italic;
+    /* display: flex; */
+    padding: 3vw 1vw;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+.second:hover{
+    transform: scale(1.1);
+    background-image:  linear-gradient(to bottom right, rgb(0,0,0), rgba(0, 0, 0, 0.8) ), url('ID.jpg');
+    
+}
+.third{
+    background-image: url(Earth.jpg);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;     
+
+}
+.any1{
+    display: none;
+    text-decoration: none;
+    color: rgb(255, 234, 234);
+    width: 100%;
+    height: auto;
+    font-style: italic;
+    /* display: flex; */
+    padding: 3vw 1vw;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.third:hover{
+    transform: scale(1.1);
+    background-image:  linear-gradient(to bottom right, rgb(0,0,0), rgba(0, 0, 0, 0.8) ), url('Earth.jpg');
+    
+}
+.fourth{
+    background-image: url(Weather_iOS_15.webp);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;     
+
+}
+.fourth:hover{
+    transform: scale(1.1);
+    background-image:  linear-gradient(to bottom right, rgb(0,0,0), rgba(0, 0, 0, 0.8) ), url('Weather_iOS_15.webp');
+    
+}
+
+
+/*-------Media Querries--------*/
+
+
+/*Contact me*/
+
+.Contact{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top , gray , white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.form{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftside{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.rightside{
+    width: 50%;
+    height: 100%;
+    
+}
+.Social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.so{
+    font-size: 1.6rem;
+}
+.so a{
+
+    color: gray;
+}
+.so a:hover{
+    color: blue;
+
+}
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.gmail a{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 2px;
+    padding: 2px;
+    color: rgb(223, 218, 218);
+    transition: all 0.5s ease-in-out;
+}
+.gmail a:hover{
+    color: blue ;
+
+}
+.Social h2{
+    color: rgb(228, 226, 226);
+
+}
+.text{
+    color: #ffff;
+    transition: all 0.5s ease-in-out;
+}
+.text:hover{
+    color: blue;
+}
+.rightside{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-direction: column; */
+}
+.rightside form{
+    width: 30%;
+}
+.rightside form input{
+    padding: 0.6vw 6vw;
+    margin: 1vw;
+    margin-left: 10vw;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.rightside form input:hover{
+    background-color: #616161;
+    
+}
+.rightside button{
+    
+    margin: 1vw;
+    margin-left: 16vw;
+    background-color: black;
+    color: white;
+    width: 9vw;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    
+}
+.rightside button:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 20px , 30px , 10px, black;
+    background-color: rgb(65, 65, 65);
+}
+input::placeholder{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+
+}
+/*Contact me*/
+
+
+
+
+@media (max-width : 650px) {
+    .Links{
+        width: 50%;
+    }
+    .Links i{
+        display: block;
+        justify-content: flex-end;
+    }
+    .Name{
+        width: 50%;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    .Links ul{
+        display: none;
+    }
+    
+    .Hero{
+        background:contain;
+    }
+    .sometext h1{
+        font-size: 4rem;
+        color: #ffff;
+        font-weight: 50;
+        font-family: 'HelveticaNeueW01-55Roma, Helvetica';
+        letter-spacing: 0.2em;
+    }
+    .sometext h3{
+        font-size: 1.5rem;
+        color: #ffff;
+        font-weight: 10;
+        padding: 20px 30px;
+        font-family: 'HelveticaNeueW01-55Roma, Helvetica';
+        letter-spacing: 0.2em;
+    }
+    .AboutMe{
+        width: 100%;
+    }
+    .Projects{
+        flex-direction: column;
+        width: 100%;
+    }
+    .first,.second,.third,.fourth{
+        width: 100%;
+        height: 100%;
+    }
+    .Contact{
+        flex-direction: column;
+    }
+}
